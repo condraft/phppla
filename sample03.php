@@ -19,7 +19,7 @@
 <h2>Practice</h2>
 <pre>
 <?php
-print(date('s'));
+print(date('s秒'));
 ?>
 </pre>
 </main>
