@@ -20,7 +20,9 @@
 <pre>
 <?php
 $i = 1;
-print($i);
+print($i."\n");
+$i = $i + 1;
+print($i); 
 ?>
 </pre>
 </main>
