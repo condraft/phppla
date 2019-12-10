@@ -21,6 +21,7 @@
 <?php
 $sum = 100+1050+200+500;
 print($sum);
+print($sum*1.08);
 ?>
 </pre>
 </main>
