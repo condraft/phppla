@@ -20,8 +20,9 @@
 <pre>
 <?php
 $sum = 100+1050+200+500;
+$tax = 1.08;
 print($sum);
-print($sum*1.08);
+print($sum*$sum);
 ?>
 </pre>
 </main>
