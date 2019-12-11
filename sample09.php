@@ -23,9 +23,13 @@
 $fruits = [
     'apple'=>'りんご',
     'grape'=>'ぶどう',
-    'lemon'=>'レモン'];
-
-print ($fruits['grape']);
+    'lemon'=>'レモン',
+    'tomato'=>'トマト',
+    'peach'=>'もも'
+];
+foreach ($fruits as $english => $japanese){
+    print ($english . ':' . $japanese . "\n");
+}
 ?>
 </pre>
 </main>

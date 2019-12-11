@@ -15,3 +15,12 @@ endfor;簡単用
 
 連想配列
 $var = ['key'=>'name'];
+
+連想配列出力
+foreach($var as $val){
+    print($val);
+}
+連想配列出力（key)
+foreach($var as $key => $val){
+    print($key);
+}
