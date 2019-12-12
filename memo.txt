@@ -26,3 +26,8 @@ foreach($var as $key => $val){
 }
 
 0=false  0以外=true
+
+メソッド
+floor=小数点全切り捨て
+ceil=小数点全切り上げ
+round=四捨五入、第二パラメータに桁数指定
