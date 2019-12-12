@@ -24,3 +24,5 @@ foreach($var as $val){
 foreach($var as $key => $val){
     print($key);
 }
+
+0=false  0以外=true
