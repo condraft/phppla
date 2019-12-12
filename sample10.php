@@ -19,9 +19,16 @@
 <h2>Practice</h2>
 <pre>
 <?php
-print(date('G'));
-if (date('G') < 24){
-    print('受付時間外です');
+// print(date('G'));
+// if (date('G') < 9){
+//     print('受付時間外です');
+// }else{
+//     print('ようこそ');
+// }
+
+$x= 'あいうえお';
+if ($x !== ''){
+    print('xには文字が入っています');
 }
 ?>
 </pre>
