@@ -20,6 +20,9 @@
 <pre>
 <?php
 print(date('G'));
+if (date('G') < 24){
+    print('受付時間外です');
+}
 ?>
 </pre>
 </main>
