@@ -36,3 +36,5 @@ sprintf('%04d',2018);
 ％　何で埋めるか　何文字までは絶対に表示　数字か文字か, 第二引数は第一引数の％の数の分だけ）
 
 readfile('ファイルのルートとファイル名')  file_get_contentsとprint()の合体、ただ編集等ができない
+
+XML = Extensible Markup Language
