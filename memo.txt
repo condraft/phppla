@@ -38,3 +38,5 @@ sprintf('%04d',2018);
 readfile('ファイルのルートとファイル名')  file_get_contentsとprint()の合体、ただ編集等ができない
 
 XML = Extensible Markup Language
+XML取得(simplexml_load_file)して変数に入れ込み
+->で中のタグに入っていける
