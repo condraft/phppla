@@ -41,6 +41,8 @@ XML = Extensible Markup Language
 XML取得(simplexml_load_file)して変数に入れ込み
 ->で中のタグに入っていける
 
+var_dump(); jsonやxml等のファイルのの中身を確認するメソッド
+
 json= JavaScript Object Notation（ジャヴァスクリプトのおぶじぇくとで使える表記法
 ・短くかける・各データの内容がわかりやすい
-json_decodeでload
+file_get_contentsでもってきてjson_decodeでload
