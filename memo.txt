@@ -46,3 +46,9 @@ var_dump(); jsonやxml等のファイルのの中身を確認するメソッド
 json= JavaScript Object Notation（ジャヴァスクリプトのおぶじぇくとで使える表記法
 ・短くかける・各データの内容がわかりやすい
 file_get_contentsでもってきてjson_decodeでload
+
+htmlspecialchars($_REQUEST[対象のname],ENT_QUOTES) formで受け取ったｈｔｍｌを展開するときにタグを
+無視（エスケープ）する（formにタグを打って送信するとそのまま反映されるためセキュリティの観点から必要）
+ENT_QUOTESは文字ではないので''いらない
+$_REQUESTは$_GETでも$_POSTでも置き換えれるがhtmlのmethodと合わせなければならない
+REQUESTはどちらも受け取れるができるだけ合わせたほうがいい（安全のため）
