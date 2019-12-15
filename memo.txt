@@ -52,3 +52,6 @@ htmlspecialchars($_REQUEST[対象のname],ENT_QUOTES) formで受け取ったｈ�
 ENT_QUOTESは文字ではないので''いらない
 $_REQUESTは$_GETでも$_POSTでも置き換えれるがhtmlのmethodと合わせなければならない
 REQUESTはどちらも受け取れるができるだけ合わせたほうがいい（安全のため）
+
+checkboxの受け取りはhtmlにてnameに[]をつける、phpにて配列展開 foreach($_POST[name]as変数)すること
+
