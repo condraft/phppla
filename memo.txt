@@ -55,3 +55,6 @@ REQUESTはどちらも受け取れるができるだけ合わせたほうがい�
 
 checkboxの受け取りはhtmlにてnameに[]をつける、phpにて配列展開 foreach($_POST[name]as変数)すること
 
+is_numeric()中身が半角数字であるかどうかチェック関数
+mb_convert_kana()日本語系の中身を変換できる
+例：mb_convert_kana(全角数字, 'n' , 'UTF-8') 全角数字を半角数字に。
