@@ -68,3 +68,4 @@ header(Webサーバーへ命令を与える（ex,ジャンプや表示等)
 
 session利用時はhtmlの最初に<?php session_start(); ?>を記載
 php.iniで自動化もできる（負荷増）
+sessionはＷｅｂサーバーに保管
