@@ -1,0 +1,9 @@
+ＳＱＬ構文の慣例として命令文は大文字
+例　SELECT * FROM items
+SELECT 参照
+*　すべて
+FROM どのファイルを
+INSERT INTO てーぶる カラム＝’’、カラム＝’’；
+
+テーブル作成
+CREATE TABLE my_items(id iNT, item_name TEXT, price INT)
