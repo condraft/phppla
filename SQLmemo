@@ -24,3 +24,22 @@ WHERE カラム名 LIKE '%キーワード%' %はなんでもの意
 並び替え、ひら、カタ、漢字（コンピュータは読めない）は別種類と認識してしまうのでそれぞれの中でソートされる
 売上等でランキング付けたい場合相対的にほかのカラムも変わる相対情報
 ではなく絶対情報sales等を用いてdescで並び変える
+
+リレーション例：　from の.0後,でつなげる
+SELECT * FROM makers, my_items WHERE 
+my_items.id=1 AND makers.id=my_items.maker_id
+
+GROUP　BY句　各項目毎の合計を出したい場合等　例
+SELECT item_id,SUM(COUNT) FROM carts GROUP BY item_id
+
+SUM(COUNT)等して０のものは内部結合（.)では表示されないのでLEFTJOINや
+RIGHTJOINを使う（外部接続（主従関係　例　LEFT JOIN テーブル　ON 条件
+SELECT item_name,SUM(COUNT)FROM my_items LEFT JOIN carts ON my_items.id=carts.item_id GROUP BY carts.item_id
+
+tips
+distinct()重複なくす
+between 間　例　a>=50 and a>150 と a between 50 and 149は同じ
+in 複数選択　where id=1,id=3 と　where id in(1,3)は同じ
+limit 件数制限　例　lIMIT 3（３件のみ）　lIMIT2,3(２件目から３件)
+
+dbリストア　ｄｂごとエクスポート→　ｄｂを作ってからインポート
